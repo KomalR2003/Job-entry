@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .h1{
+    text-align: center;
+    padding-top: 60px;
+}
+.navbar{
+    height: 9vh;
+}
+
+ html body{
+    background-color: rgb(194, 228, 217);
+}
+.item{
+    margin-left: 584px;
+    
+}
+.item ul li a{
+    font-weight: bold;
+}
+.item ul li a.active {
+    color: rgb(6, 131, 89) ;
+}
+.item li{
+    margin: 5px;
+}
+.logo h1{
+    color: rgb(4, 184, 124);
+}
+.btn{
+    width: 8vw;
+    height: 6.4vh;
+    border-radius: none;
+}
+/* main  */
+.main{
+    border: none;
+    outline: none !important;
+}
+.main img{
+    height: 75vh;
+    background: linear-gradient(to right, rgba(0,0,0,0.3), rgba(0,0,0,0.3));
+}
+.main-content{
+    border-left: 9px solid rgb(4, 184, 124);
+    height: 40vh;    
+}
+.bg-color{
+    background-color: rgb(4, 184, 124);
+    height: 10vh;
+}
+
+.form-btn button{
+    width: 17vw;
+    height: 5vh;
+   
+}
+.cat{
+    background-color: rgb(243, 240, 240);
+    height: auto;
+}
+.cat-content i{
+    font-size: 30px;
+    color: rgb(4, 184, 124);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.cat-content p{
+    color: rgb(4, 184, 124);
+}
+.part img{
+    height: 230px;
+    width: 300px;
+}
+.help-content h1{
+    margin-top: 100px;
+}
+.help-btn{
+    background-color: rgb(4, 184, 124);
+    width: 10vw;
+    height: 5vh;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.list ul{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+.list ul li{
+    list-style: none;
+    margin: 8px;
+  
+}
+.list ul li:hover{
+    border-bottom: 1px solid rgb(4, 184, 124);
+    transition: 0.2s all ease-in;
+
+}
+
+.job-img img{
+    height: 100px;
+    width: 100px;
+    border: 1px solid gray;
+}
+.job-content i{
+    color: rgb(4, 184, 124);
+}
+.last{
+    display: flex;
+  
+}
+.last i{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(194, 228, 217);
+    color: rgb(4, 184, 124);
+}
+.job-btn{
+    height: 5vh;
+    margin-left: 15px;
+    background-color: rgb(4, 184, 124);
+    color: white;
+    border: none;
+    width: 8vw;
+}
+.last1 i{
+    color: rgb(4, 184, 124);
+}
+.job-btn1{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.client-img{
+    display: flex;
+}
+.client-img img{
+    width: 70px;
+    height: 70px;
+}
+.job-btn1 button{
+    background-color: rgb(4, 184, 124);
+    color: white;
+    height: 5vh;
+    width: 12vw;
+    border: none;
+}
+.client .card{
+    background-color: rgb(194, 228, 217);
+    border: none;
+}
+.client i{
+    font-size: 50px;
+    color: rgb(4, 184, 124);
+}
+.second .card{
+    background-color: rgb(4, 184, 124);
+    color: white;
+}
+.second i{
+    font-size: 50px;
+    color: white;
+}
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+.square i{
+    margin: 5px;
+    color: rgb(4, 184, 124);
+    font-size: 20px;
+}
+.footer-list ul li{
+    list-style: none;
+}
+.footer-list ul li i{
+    font-size: 10px;
+}
+.footer-icons{
+    display: flex;
+   
+}
+.footer-icons i{
+    height: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    margin: 3px;
+}
+.form input{
+    position: absolute;
+    background: transparent;
+    border: 2px solid white;
+    height: 6vh;
+    width: 15vw;
+    padding-left: 5px;
+}
+.sign{
+    position: relative;
+    height: 5vh;
+    width: 6vw;
+    right: -135px;
+    background-color: rgb(4, 184, 124);
+    border: none;
+    margin-top: 3px;
+}
+.footer-links ul{
+    display: flex;
+}
+.footer-links ul li{
+    list-style: none;
+    margin: 10px;
+}
+    @media only screen and (max-width:400px){
+        .main-btn button{
+            width: 60vw;
+            height: 5vh;
+            margin: 5px;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            flex-direction: column;
+            
+        }
+        .bg-color{
+            height: 30vh;
+        }
+        .form-btn button{
+            width: 45vw;
+            margin-left: 12px;
+        }
+        .part img{
+            width: 200px;
+            height: 100px;
+        }
+        .part .part1{
+            display: flex;
+            width: 100%;
+            height: auto;
+        }
+        .part .part2{
+            display: flex;
+        }
+        .help-btn{
+            width: 25vw;
+            margin-left: 120px;
+        }
+        .job-btn{
+            width: 23vw;
+        }
+        .last{
+            margin-left: 90px;
+        }
+        .job{
+            align-items: center;
+            text-align: center;
+        }
+        .job-btn1 button{
+            width: 38vw;
+        }
+        .footer-icons{
+            text-align: center;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+        .form input{
+            position: absolute;
+            background: transparent;
+            border: 2px solid white;
+            height: 6vh;
+            width: 50vw;
+            margin-left: -90px;
+            padding-left: 5px;
+        }
+        .sign{
+            position: relative;
+            height: 5vh;
+            width: 16vw;
+            right: -40px;
+            background-color: rgb(4, 184, 124);
+            border: none;
+            margin-top: 3px;
+        }
+    }
